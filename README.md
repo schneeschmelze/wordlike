@@ -1,18 +1,22 @@
 # wordlike
 
-OVERVIEW: This is LaTeX package 'wordlike' for simulating word
+## Overview 
+
+This is LaTeX package 'wordlike' for simulating word
 processor layout. The package consists of these files:
 
- * wordlike.ins
- * wordlike.dtx
- * README
- * wordlike.pdf
+* wordlike.ins
+* wordlike.dtx
+* README.md
+* wordlike.pdf
 
 These packages are REQUIRED for running 'wordlike':
 courier, geometry, helvet, mathptmx.
 They are usually installed on a TeX system.
 
-INSTALLATION is done in six steps:
+## Installation 
+
+is done in six steps:
 
  1. move wordlike.ins and wordlike.dtx into the same directory
  2. call latex wordlike.ins -> generates wordlike.sty
@@ -21,12 +25,14 @@ INSTALLATION is done in six steps:
  5. move wordlike.dvi to texmf-local/doc/latex/wordlike
  6. call mktexlsr/texhash for updating TeX's file name database
 
-CHANGEs
+## Changes 
 
  v1.2a  2006/03/29  Broken v1.1 on CTAN replaced by fixed local v1.2a
                     Hint to the arial package added
 
-COPYING: This is free software. The latest version of the LPPL is
+## Copying 
+
+This is free software. The latest version of the LPPL is
 applicable to all parts of this package. Please see
 
   http://www.latex-project.org/lppl.txt
