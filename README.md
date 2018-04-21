@@ -20,7 +20,7 @@ is done in six steps:
 
  1. move wordlike.ins and wordlike.dtx into the same directory
  2. call latex wordlike.ins -> generates wordlike.sty
- 3. call latex wordlike.dtx twice -> generates user guide wordlike.dvi
+ 3. call latex wordlike.dtx twice -> generates user guide wordlike.dvi/ *.pdf
  4. move wordlike.sty to texmf-local/tex/latex/wordlike
  5. move wordlike.dvi to texmf-local/doc/latex/wordlike
  6. call mktexlsr/texhash for updating TeX's file name database
@@ -40,7 +40,6 @@ applicable to all parts of this package. Please see
 for details.
 
 Keep TeXing! ;-) 
-Please let me know what you think about the package.
 
-Juergen Fenn, juergen <dot> fenn <at> gmx <dot> de, 
+Juergen Fenn, 
 29 March 2006 / 21 April 2018
